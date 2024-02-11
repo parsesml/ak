@@ -8,7 +8,7 @@ ig.game.attachmentManager=Deobfuscator.object(ig.game, "slots", false);
     shoutmotion=Deobfuscator.function(ig.game[speechstuff], "shout", true);
     dbt=Deobfuscator.function(ig.game.player.__proto__, "b*b", true);
 kalist=[];
-for(i=0;i<360;i++){kalist.push(ig.game.O6898.O7958(i+' 70 a', [['65c8ebc35bb9a5149cf6845f','a']]))}
+for(i=0;i<360;i++){kalist.push(ig.game.O6898.O7958(i+' 70 a', [['65c91f3c5bb9a5149cf684e0','a']]))}
     newline=function(){ig.game[speechstuff][nlx](); ig.game[speechstuff][speecharray]=[]};
     cleanr=function(a, b){a=a.replace(b, "");a=a.slice(0, a.length-1); return a};
     ig.game[speechstuff][shoutmotion]=function(b) {
