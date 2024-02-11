@@ -16,7 +16,7 @@ for(i=0;i<360;i++){kalist.push(ig.game.O6898.O7958(i+' 70 a', [['65c8ebc35bb9a51
             case "ACIDKILL!":
 for(i=0;i<10;i++){
 setTimeout(()=>{
-kkr=ig.game[players].betweenDefaultAndPlayer.toSorted((c,d)=>ig.game.O2572[dbt](c)-ig.game.O2572[dbt](d))[0];
+kkr=ig.game[players].betweenDefaultAndPlayer.filter(b=>{return b?.attributes?.canHarmOrHasHighImpact}).toSorted((c,d)=>ig.game.O2572[dbt](c)-ig.game.O2572[dbt](d))[0];
     if(kkr){
 ig.game.O6898.O6284(ig.game.O2572, kkr.O3177, undefined, undefined, undefined, undefined, undefined, undefined, kalist);
                 ig.game.O8019.wssend(ig.game.O8019.ws, "nv",{eid:kkr.O3177,throws:kalist})}},250*i)}; newline(); break;
